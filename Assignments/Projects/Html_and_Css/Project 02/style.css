@@ -1,0 +1,78 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    background-color: #000000 ;
+    align-items: center;
+}
+
+section > nav > div >img{
+    height: 30px;
+    padding: 20px 35px;
+}
+
+.line{
+    border-left: 2px solid white;
+    height: 50px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+}
+
+.list-item{
+    color: #F1F1F1;
+    font-size: small;
+}
+
+.button-small{
+    margin-left: 450px;
+    background-color: #BA0CC5;
+    padding: 5px 15px;
+    color: #F1F1F1;
+    border-radius: 7px;
+}
+
+/* <!-- Hero Section --> */
+
+.hero{
+    text-align: center;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    padding:150px ;
+}
+
+.hero-heading{
+    font-size: 60px;
+    margin: 15px 100px;
+    color: #F1F1F1;
+}
+
+.hero-description{
+    font-size: 20px;
+    color: #F1F1F1;
+}
+
+.button-large{
+    background-color: #BA0CC5;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F1F1F1;
+    margin-top: 35px;
+    padding: 15px 35px ;
+    border-radius: 6px;
+}
+

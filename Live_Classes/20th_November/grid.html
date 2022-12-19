@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .container{
+            background-color: #80808080;
+            height: 100vh;
+            /* width: 100vh; */
+            display: grid;
+            /* grid-template-columns: 100px 100px 100px ;
+            grid-template-rows: 100px 100px 100px; */
+            grid-template-columns: repeat(3, 1fr);
+            /* row-gap: 20px;
+            column-gap: 20px; */
+        }
+        .items{
+            background-color: #242423;
+            /* height: 70px;
+            width: 70px; */
+            margin: 10px;
+
+        }
+
+        .item1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        -HTML
+        -CSS
+            -Selector
+            -pseudo
+            -margin
+            -padding
+            -border
+            -background
+            -height
+            -width
+            -mediaQueries
+            -flex
+            -grid
+            -nth-child
+            -positions
+            -displays
+            -text
+
+     -->
+
+     <!-- //Next Week
+        -tailwind
+        -bootstrap
+        -git and git hub
+        -markdown
+      -->
+
+      <!-- Assignments
+        -complete 3 projects
+        -linkedln (it will give growth to you so post )
+        - Article (Positions, Flex ,Grid, Media)
+        -Complete 
+
+    -->
+    <div class="container">
+        <div class="items item1"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+</body>
+</html>

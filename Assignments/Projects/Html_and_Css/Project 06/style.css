@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#2B2923 ;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo{
+    margin: 25px 0;
+    height: 30px;
+    width: 100px;
+}
+
+li{
+    list-style: none;
+    margin: 20px ;
+    color: #888681;
+    font-size: small;
+}
+
+button{
+    background-color:transparent;
+    border: 1px solid #918334;
+    color: #918334;
+    padding: 6px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 40%;
+    color: white;
+}
+
+.text2{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    width: 41%;
+    color: #888681;
+}
+
+.Banner{
+   max-width: 800px;
+   height: 450px;
+}
+
+
