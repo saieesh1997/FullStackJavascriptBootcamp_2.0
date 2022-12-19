@@ -1,6 +1,6 @@
 # Project-01_SEO_MASTER 
-
-### Live link: [link]()
+## Responsive Site : No(Desktop or Laptop Recommended).
+### Live link: [link](https://saieeshnaik-seo-master.netlify.app/)
 ### Source Code: [link](https://github.com/saieesh1997/FullStackJavascriptBootcamp_2.0/tree/main/Assignments/Projects/Html_and_Css/Project%2001)
 ## Technologies used:
 
@@ -13,8 +13,8 @@
 
 
 # Project-02_CRYPTO_MARKET
-
-### Live link: [link]()
+## Responsive Site : No(Desktop or Laptop Recommended).
+### Live link: [link](https://saieeshnaik-crypto-market.netlify.app/)
 ### Source Code: [link](https://github.com/saieesh1997/FullStackJavascriptBootcamp_2.0/tree/main/Assignments/Projects/Html_and_Css/Project%2002)
 ## Technologies used:
 
@@ -22,13 +22,14 @@
 
 ### 2). Css3
 
+
 # Output:
 ![This is an image](./Project%2002/Screenshot%20(38).png)
 
 
 # Project-03_FASHION_HUB
-
-### Live link: [link]()
+## Responsive Site : No(Desktop or Laptop Recommended).
+### Live link: [link](https://saieeshnaik-fashion-hub.netlify.app/)
 ### Source Code: [link](https://github.com/saieesh1997/FullStackJavascriptBootcamp_2.0/tree/main/Assignments/Projects/Html_and_Css/Project%2003)
 ## Technologies used:
 
@@ -41,8 +42,8 @@
 
 
 # Project-04_CALM_MUSIC
-
-### Live link: [link]()
+## Responsive Site : No(Desktop or Laptop Recommended).
+### Live link: [link](https://saieeshnaik-calm-music.netlify.app/)
 ### Source Code: [link](https://github.com/saieesh1997/FullStackJavascriptBootcamp_2.0/tree/main/Assignments/Projects/Html_and_Css/Project%2004)
 ## Technologies used:
 
@@ -55,8 +56,8 @@
 
 
 # Project-05_MEDIFINE
-
-### Live link: [link]()
+## Responsive Site : No(Desktop or Laptop Recommended).
+### Live link: [link](https://saieeshnaik-medifine.netlify.app/)
 ### Source Code: [link](https://github.com/saieesh1997/FullStackJavascriptBootcamp_2.0/tree/main/Assignments/Projects/Html_and_Css/Project%2005)
 ## Technologies used:
 
@@ -69,8 +70,8 @@
 
 
 # Project-06_JUSTICE
-
-### Live link: [link]()
+## Responsive Site : No(Desktop or Laptop Recommended).
+### Live link: [link](https://saieeshnaik-justice.netlify.app/)
 ### Source Code: [link](https://github.com/saieesh1997/FullStackJavascriptBootcamp_2.0/tree/main/Assignments/Projects/Html_and_Css/Project%2006)
 ## Technologies used:
 
