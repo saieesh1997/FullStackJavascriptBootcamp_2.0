@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio - Code Editing.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#2C2C32] items-center">
+    <nav class="flex max-w-screen-xl ml-36 mr-32 h-12">
+        <div class="inline-flex flex-row items-center">
+            <img src="./Assets/nav_logo.png" alt="" class="w-6 h-6">
+            <span class="ml-3 text-xl font-normal text-[#FFFFF9]">Visual Studio Code</span>
+        </div>
+        
+        <div class="flex gap-4 ml-6 items-center">
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">Docs</li>
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">Updates</li>
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">Blog</li>
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">API</li>
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">Extensions</li>
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">FAQ</li>
+            <li class="list-none text-[#969699] font-normal hover:text-[#FFFFFF] ">Learn</li>
+        </div>
+        <div class="flex relative left-40">
+            <div class="flex bg-[#3D3D42] items-center hover:bg-[#525257]">
+                <img src="./Assets/search.svg" alt="" class="h-4 w-7 ml-2 mr-2  "> 
+                <input type="text" placeholder="Search Docs" class="bg-transparent focus:outline-0 w-1/2 hover:bg-[#525257] ">
+            </div>
+            <div class="flex bg-[#0066B8] items-center relative right-10 hover:bg-[#0066B8]/[.75] ">
+                <img src="./Assets/download.svg" alt="" class="w-5 h-10 ml-3">
+                <button class="ml-3 mr-5 text-[#FFFFF8] ">Dowload</button>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Latest Version Available Banner  -->
+
+    <div class="latestversion-banner ">
+        <p class="text-center bg-[#25252B] py-2 text-[#FFFFFF]/[.75]"><a class="text-[#1D79FF] hover:underline" href="#">Version 1.74</a> is now available! Read about the new features and fixes from November.        </p>
+    </div>
+
+    <main>
+        <!--DOWNLOAD FOR WINDOWS AND IDE IMAGE SECTION  -->
+        <div class="flex flex-row">
+            <div class="left-section flex flex-col items-center pt-20 pl-32 pr-20 pb-20">
+                <p class="text-5xl font-light text-[#FFFFFF]/[.75]">Code Editing.</p>
+                <p class="text-5xl text-[#FFFFFF]/[.75] pt-3">Redifined.</p>
+                <p class="pt-3 text-[#ABABAD]">Free. Built on open source. Runs everywhere.</p>
+                <div class="button h-13 pt-3 mb-3 flex flex-row">
+                <button class="bg-[#0066B8] text-[#FFFFFF]/[.75] pl-8 pr-3 hover:bg-[#0066B8]/[.75]"><p class="text-[#FFFFFF] pt-1">Download For windows</p>Stable Build</button>
+                <img class="ml-1 h-13 w-6 pl-1 pr-1 bg-[#0066B8] hover:bg-[#0066B8]/[.75]" src="./Assets/chevronDown.svg" alt="">
+                </div>
+                <p class=" bg-[#25252B] text-[13px] px-1 py-1.5 rounded-md text-[#ABABAD]"><a class="text-[#1D79FF] hover:underline" href="#">web</a>, <a class="text-[#1D79FF] hover:underline" href="#">Insiders edition</a>, or <a class="text-[#1D79FF] hover:underline" href="#">other platforms</a></p>
+                <p class=" mt-2 text-[#ABABAD] text-[12px]">By using VS Code, you agree to its</p>
+                <p><a class="text-[#1D79FF] text-[12px] hover:underline" href="#">license and privacy statement.</a></p>
+            </div>
+             <div class="right-section pt-16">
+                <img src="./Assets/IDE_IMAGE.PNG" alt="Ide Image">
+            </div>
+        </div>
+
+        <!-- Second section that contains Intellisense, run and debug , built-in git , extensions -->
+        <div class="bg-[#FFFFFF] h-[130px] flex space-x-4 ">
+            <div class="flex flex-row h-[130px] space-x-[129px]   ml-36 mr-32 absolute left-0 w-[1088px]">
+                <div class="px-[45px] items-center hover:bg-[#E3E3E3]">
+                    <img src="./Assets/light.PNG" alt="Intellisense svg" class="mt-2">
+                    <span>IntelliSense</span>
+                </div>
+                <div class="px-[45px] hover:bg-[#E3E3E3]">
+                    <img src="./Assets/debugg.PNG" alt="run_debug svg" class="mt-2">
+                    <span>Run and Debug</span>
+                </div>
+                <div class="px-[45px] hover:bg-[#E3E3E3]">
+                    <img src="./Assets/Git.PNG" alt="built-ingit svg" class="mt-2">
+                    <span>Built-in Git</span>
+                </div>
+                <div class="px-[45px] hover:bg-[#E3E3E3]">
+                    <img src="./Assets/Extensions.PNG" alt="Extenstions svg" class="mt-2">
+                    <span>Extensions</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
