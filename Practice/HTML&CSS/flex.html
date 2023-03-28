@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Introduction!</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            background-color: grey;
+        }
+
+        .one{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+
+        .two{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+        }
+
+        .three{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+        }
+
+        .scrool{
+            overflow-y: scroll;
+        }
+
+        .parent{
+            display: inline-block;
+            border: 2px dotted blue;
+            text-align: center;
+        }
+
+        .box{
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        #two{
+            background-color: green;
+            position: relative;
+            top: 30px ;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="one">
+            First Division
+         </div>
+         <div class="two">
+            Second Division
+         </div>
+         <div class="three">
+            Third Division
+         </div>
+    </div> -->
+
+    <!-- static , fixed , relative , absolute , sticky position -->
+    <!-- difference between position relative and position absolute -->
+    <!-- positon static -by default all the web elements are position static -->
+    <!-- <div class="scrool">
+        <p style="position: fixed;"><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+        <p ><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+        <p ><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+         <p ><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+         <p ><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+        <p ><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+         <p ><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nihil harum voluptates reiciendis enim eaque quae molestiae labore perferendis alias? Ipsum autem facere aperiam est dolores obcaecati iusto consequuntur esse!</span><span>Consequatur aspernatur atque cumque blanditiis sequi harum repellat! Provident fugit maxime ducimus rerum et unde ut aspernatur facilis, doloremque deserunt esse? Beatae modi qui enim. Perferendis placeat fuga natus officiis.</span></p>
+    </div>
+    -->
+    <!-- absolute -->
+    <div class="parent">
+        <div class="box">
+            first
+        </div>
+        <div class="box" id="two">
+            second
+        </div>
+        <div class="box">
+            third
+        </div>
+        <div class ="box">
+            four
+        </div>
+    </div>
+
+</body>
+</html>
