@@ -1,0 +1,16 @@
+body{
+    padding : 30px;
+}
+
+.custom-container{
+    background-color: aqua;
+    border: 5px solid green;
+}
+
+.custom-row{
+    border: 3px dotted blue;
+}
+
+.custom-col{
+    border: 3px dotted red;
+}
