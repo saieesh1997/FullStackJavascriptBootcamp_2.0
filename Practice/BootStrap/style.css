@@ -14,3 +14,7 @@ body{
 .custom-col{
     border: 3px dotted red;
 }
+
+/* table, th, tr, td{
+    border: 1px solid black !important ;
+} */
